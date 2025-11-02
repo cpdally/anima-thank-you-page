@@ -17,7 +17,7 @@ export const createPDF = async (firstName: string, lastName: string) => {
 
   doc.addImage(image, 'PNG', 0, 0, imageWidth, imageHeight);
 
-  const message = `Thank you for supporting us, ${firstName}!`;
+  const message = `Thank you for supporting us, ${firstName} ${lastName}!`;
   
   doc.setFontSize(30);
   doc.setFont('Poppins', 'bold');
