@@ -27,19 +27,42 @@ npm start
 
 Open [http://localhost:3000](http://localhost:3000) and you're good to go. Type your name and hit submit to download your PDF.
 
-## Deploying it
-
-1. Push your code to GitHub
-2. Go to [vercel.com](https://vercel.com) and sign in with GitHub
-3. Click "New Project" and import your repository
-4. Vercel will auto-detect it's a React app. 
-5. Hit "Deploy"
-6. Done! You'll now have a live URL
-
 ## What's inside
 
 - React + TypeScript
 - jsPDF makes the PDFs
 - Some CSS for styling
 
-Enjoy.
+---
+
+## Deployment Tutorial
+
+### Step 1: Push your code to GitHub
+
+Make sure all your code is committed and pushed to a GitHub repository.
+
+### Step 2: Go to Vercel and sign in
+
+Go to [vercel.com](https://vercel.com) and sign in with your GitHub account.
+
+### Step 3: Click "Add New", then "Project"
+
+![Screenshot of Vercel dashboard showing "Add New" button and "Project" option](docs/vercel-add-new-project.png)
+
+### Step 4: Import your repository
+
+Select "anima-thank-you-page" from your repositories.
+
+![Screenshot of Vercel import screen showing repositories](docs/vercel-import-repo.png)
+
+### Step 5: Hit "Deploy"
+
+Vercel will auto-detect it's a React app. Just hit "Deploy".
+
+![Screenshot of Vercel deploy screen with "Deploy" button](docs/vercel-deploy.png)
+
+### Step 6: Get your live URL
+
+Done! You'll now have a live URL. Click on the image to go to your website.
+
+![Screenshot showing deployment success with live URL](docs/vercel-live-url.png)
