@@ -12,6 +12,7 @@ const Form: React.FC = () => {
 
   return (
     <form onSubmit={handleSubmit}>
+      <img src="/AnimaLogo.svg" alt="Anima International Logo" />
       <input
         type="text"
         placeholder="First Name"

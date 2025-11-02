@@ -16,6 +16,13 @@ form {
   width: 100%;
 }
 
+img {
+  filter: invert(48%) sepia(79%) saturate(2476%) hue-rotate(142deg) brightness(90%) contrast(101%);
+  max-width: 200px;
+  width: 100%;
+  margin-bottom: 40px;
+}
+
 input {
   width: 100%;
   padding: 20px;
