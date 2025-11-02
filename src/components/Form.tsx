@@ -5,12 +5,13 @@ const Form: React.FC = () => {
   const [firstName, setFirstName] = useState('');
   const [lastName, setLastName] = useState('');
 
-  const handleClick = async () => {
+  const handleSubmit = async (e: React.FormEvent) => {
+    e.preventDefault();
     await createPDF(firstName, lastName);
   };
 
   return (
-    <form>
+    <form onSubmit={handleSubmit}>
       <input
         type="text"
         placeholder="First Name"
@@ -25,7 +26,7 @@ const Form: React.FC = () => {
         onChange={(e) => setLastName(e.target.value)}
         required
       />
-      <button type="button" onClick={handleClick}>Submit</button>
+      <button type="submit">Submit</button>
     </form>
   );
 };
