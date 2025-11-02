@@ -46,3 +46,24 @@ button {
 button:hover {
   background: rgb(0, 84, 84);
 }
+
+@media (max-width: 600px) {
+  .App {
+    padding: 10px;
+  }
+
+  form {
+    padding: 20px;
+  }
+
+  input {
+    padding: 10px;
+    margin-bottom: 20px;
+    font-size: 16px;
+  }
+
+  button {
+    padding: 10px;
+    font-size: 16px;
+  }
+}
